@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: math;
+}
+
+body {
+    background: rgb(32, 32, 32);
+}
+
+.main {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 0 0;
+}
+
+.title1 {
+    color: white;
+    font-size: 24px;
+}
+
+.center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uploader {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    border-bottom: 1px solid rgb(19, 19, 19);
+}
+
+/* .uploader::after {
+    height: 40%;
+    width: 90%;
+    content: '';
+    position: relative;
+    border-bottom: 1px solid rgb(19, 19, 19);
+    z-index: -1;
+} */
+
+.uploader * {
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.uploader input {
+    display: none;
+}
+
+ol {
+    color: gray;
+}
+
+.select {
+    cursor: pointer;
+    height: 30%;
+    width: 60%;
+    border: 1px dashed rgba(255, 255, 255, 0.534);
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.uploadbtn {
+    width: 60%;
+    font-size: 20px;
+    font-family: monospace;
+    color: #4e4e4e;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+
+
+    font-family: sans-serif;
+    padding: 6px;
+    border-radius: 7px;
+    border: 1px solid #2350d7;
+    background-color: #2350d7;
+    color: white;
+    cursor: pointer;
+}
+
+.file_container {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.title2 {
+    color: gray;
+}
+
+.no_file_msg {
+    color: #383838;
+    position: relative;
+    top: 43px;
+    font-size: 24px;
+}
+
+.file_box {
+    /* border: 1px solid rgb(100, 100, 100); */
+    border-bottom: 1px solid rgb(100, 100, 100);
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.file_box .file {
+    width: 100%;
+    color: #00d9ff;
+
+}
+
+.file_box .view {
+    font-family: initial;
+    height: 28px;
+    width: 70px;
+    font-size: 16px;
+    background: rgb(0, 217, 255);
+    border: none;
+    border-radius: 14px;
+    color: rgb(32, 32, 32);
+}
